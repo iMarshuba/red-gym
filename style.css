@@ -30,13 +30,7 @@
   font-style: normal;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); */
-/**********************************************************************/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -86,7 +80,6 @@ table {
   border-spacing: 0;
 }
 
-/**********************************************************************/
 a {
   text-decoration: none;
 }
@@ -103,9 +96,7 @@ body .home {
 }
 
 .content {
-  /* background-color: rgba( 255, 255, 0, .5 ); */
-  /* width: 1140px; */
-  width: calc(1200px - 20%);
+  width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
   position: relative;
@@ -113,23 +104,17 @@ body .home {
 
 body .home .content .logo {
   padding: 50px 0 0 0;
-  /* background-color: rgba( 0, 255, 0, .5 ); */
 }
 
 body .home .content .mid {
   margin-top: 50px;
   position: relative;
-  /* background-color: rgba( 255, 0, 255, .5 ); */
   display: flex;
-  /* margin-left: -56px; */
   justify-content: space-between;
 }
 
 body .home .content .mid .name {
-  /* background-color: rgba(0, 0, 255, 0.5); */
   padding: 80px 0 150px 0;
-  /* background-image: url('img/name-bg.png');
-  background-repeat: no-repeat; */
 }
 
 body .home .content .mid .name:before {
@@ -164,7 +149,6 @@ body .home .content .mid .name p:nth-child(2) {
 }
 
 body .home .content .mid .sign-up {
-  /* background-color: rgba(255, 0, 0, 0.5); */
   padding-top: 91px;
   color: white;
   font: 30px 'ralewayblack', sans-serif;
@@ -183,17 +167,15 @@ body .home .content .mid .sign-up a {
 
 body .home .content .menu {
   z-index: 15;
-  /* background-color: rgba( 255, 255, 0, 0.5 ); */
   text-align: right;
   font-size: 0;
   margin-top: 120px;
   position: relative;
-  /* padding-top: 110px; */
+
 }
 
 body .home .content .menu ul {
   display: inline-block;
-  /* background-color: rgba( 255, 0, 0, 0.5 ); */
   position: relative;
 }
 
@@ -263,12 +245,10 @@ body .home .content .menu ul li a {
   transform: skew(0, 0.6deg);
 }
 
-/* about-us */
 body .about-us {
   z-index: 10;
   position: relative;
   margin-top: 25px;
-  /* background-color: rgba(0, 255, 26, 0.5); */
 }
 
 body .about-us .content h2 {
@@ -278,25 +258,21 @@ body .about-us .content h2 {
   font-size: 32px;
   font-family: 'ralewayregular';
   transform: rotate(-90deg) translateY(-50%);
-  /* transform: translateY(-50%); */
   top: 40%;
   margin-left: -50px;
 }
 
 body .about-us .photoText {
-  /* background-color: rgba(255, 0, 0, 0.5); */
   margin-top: 50px;
   display: flex;
 }
 
 body .about-us .content .photo {
-  /* background-color: rgba(255, 255, 0, 0.5); */
   padding-left: 70px;
   z-index: 5;
 }
 
 body .about-us .content .text {
-  /* background-color: rgba(0, 255, 0, 0.5); */
   font-size: 17px;
   color: white;
   font-family: 'robotolight', sans-serif;
@@ -324,10 +300,9 @@ body .about-us .content .text h3 {
 .red-all-2 {
   font-size: 0;
   z-index: 5;
-  /* width: 1366px; */
   width: 100%;
   position: absolute;
-  /* height: 300px; */
+
 }
 
 .red-all-2>.one {
@@ -364,17 +339,14 @@ body .about-us .content .text h3 {
   margin-top: 100px;
 }
 
-/* GALLERY */
 body .gallery {
   z-index: 10;
   margin-top: 150px;
   text-align: center;
-  /* background-color: blue; */
   position: relative;
 }
 
 body .gallery .content h2 {
-  /* z-index: 10; */
   position: absolute;
   right: 20px;
   top: 40%;
@@ -382,8 +354,6 @@ body .gallery .content h2 {
   font-size: 32px;
   font-family: 'ralewayregular';
   transform: rotate(90deg);
-  /* top: 40%; */
-  /* margin-left: -50px; */
 }
 
 body .gallery .content .gallery_main_photo {
@@ -400,7 +370,6 @@ body .gallery .content .gallery_main_photo .before a {
   left: 133px;
   width: 38px;
   height: 38px;
-  /* background-color: white; */
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-top: 2px solid white;
@@ -425,7 +394,6 @@ body .gallery .content .gallery_main_photo .after a {
   right: 133px;
   width: 38px;
   height: 38px;
-  /* background-color: white; */
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-top: 2px solid white;
@@ -444,12 +412,10 @@ body .gallery .content .gallery_main_photo .after a::after {
   left: 6px;
 }
 
-/* join */
 body .join {
   text-align: center;
   z-index: 0;
   padding-top: 126px;
-  /* background-color: blue; */
   position: relative;
 }
 
@@ -500,7 +466,6 @@ body .join .join_btn {
   padding-top: 72px;
   width: 100%;
   position: relative;
-  /* margin-bottom:  */
 }
 
 .red-all-3:before {
@@ -521,7 +486,6 @@ body .join .join_btn {
   background-color: #ce0e0b;
 }
 
-/* schedule */
 body .schedule .content {
   position: relative;
   text-align: center;
@@ -546,7 +510,6 @@ body .schedule .content h2 {
 }
 
 body .schedule .content .group {
-  /* background-color: blue; */
   margin-top: 45px;
   padding-left: 107px;
   text-align: left;
@@ -555,8 +518,6 @@ body .schedule .content .group {
 body .schedule .content .group .day {
   font-size: 0;
   left: 0;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 body .schedule .content .group .day li {
@@ -582,10 +543,7 @@ body .schedule .content .group .day li+li {
 
 body .schedule .content .group .timeCalendar .time {
   width: 62%;
-  /* background-color: green; */
-  /* display: inline-block; */
   font-size: 0;
-  /* left: 0; */
 }
 
 body .schedule .content .group .timeCalendar .time p {
@@ -638,7 +596,6 @@ body .schedule .content .group .timeCalendar .time li p:last-child {
 }
 
 body .schedule .content .group .timeCalendar .calendar {
-  /* background-color: #ce0e0b; */
   width: 38%;
   margin-left: 70px;
 }
@@ -651,7 +608,6 @@ body .schedule .content .group .timeCalendar .cap {
 }
 
 body .schedule .content .group .timeCalendar .cap .number {
-  /* background-color: blue; */
   color: white;
   position: absolute;
   top: 50px;
@@ -671,7 +627,6 @@ body .schedule .content .group .timeCalendar .cap .number::before {
 }
 
 body .schedule .content .group .timeCalendar .cap .calendar-caption {
-  /* padding: 25px 0 0 17px; */
   padding: 25px 0 0 135px;
 }
 
@@ -692,7 +647,6 @@ body .schedule .content .group .timeCalendar .dates {
   background-color: #510e0e;
   text-align: center;
   padding: 28px 0 1px 0px;
-  ;
   width: 350px;
 }
 
@@ -742,7 +696,6 @@ body .schedule .content .group .timeCalendar .dates .day-month {
 body .schedule .content .group .timeCalendar .dates .number-calendar {
   display: flex;
   flex-wrap: wrap;
-  /* background-color: #ce0e0b; */
   justify-content: space-around;
 }
 
@@ -768,11 +721,8 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div a {
 
 .red-all-4 {
   font-size: 0;
-  /* z-index: 5; */
-  /* width: 1366px; */
   width: 100%;
   position: absolute;
-  /* height: 300px; */
   transform: rotate(180deg) scale(-1, 1);
   margin-top: 50px;
 }
@@ -811,7 +761,6 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div a {
   margin-top: 50px;
 }
 
-/* price */
 body .price-bl {
   position: relative;
   z-index: 25;
@@ -839,7 +788,6 @@ body .price-bl .group1 {
 }
 
 body .price-bl .group1 .price {
-  /* background-color: blue; */
   width: 350px;
   height: auto;
   height: 180px;
@@ -877,10 +825,8 @@ body .price-bl .group1 .cost {
   font: bold 30px 'Roboto', sans-serif;
 }
 
-/* team */
 .team {
   padding-top: 346px;
-  /* background-color: green; */
   position: relative;
   padding-bottom: 70px;
 }
@@ -1055,7 +1001,6 @@ body .price-bl .group1 .cost {
   left: 6px;
 }
 
-/* write-us */
 body .write-us {
   position: relative;
   background-image: url("img/writeUs_bg.png");
@@ -1266,7 +1211,7 @@ button {
   z-index: 10;
   height: 165px;
   width: 50%;
-  /* background-color: yellow; */
+
 }
 
 .contacts .map img {
@@ -1289,7 +1234,6 @@ button {
   width: 100%;
   padding-top: 15px;
   text-align: center;
-  /* background-color: blue; */
 }
 
 .social .facebook {
@@ -1347,7 +1291,7 @@ body .schedule .content .group .timeCalendar .time li:hover p:last-child {
 
 body .schedule .content .group .timeCalendar .time li:hover p {
   color: white;
-  /* font: bold 15px 'Roboto', sans-serif; */
+
   transition: all 0.2s;
 }
 
