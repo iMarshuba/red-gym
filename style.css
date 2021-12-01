@@ -726,6 +726,7 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div {
 .schedule .content .group .timeCalendar .dates .number-calendar .day-of-week {
   color: white;
   font: bold 17px 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .red-all-4 {
