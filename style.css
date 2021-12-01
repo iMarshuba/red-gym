@@ -311,6 +311,9 @@ body .about-us .content .text h3 {
   width: 50%;
   height: 445px;
   transform: skewY(6deg);
+  position: absolute;
+  top: 250px;
+  left: 0;
 }
 
 .red-all-2>.two {
@@ -319,6 +322,9 @@ body .about-us .content .text h3 {
   width: 50%;
   height: 445px;
   transform: skewY(-6deg);
+  position: absolute;
+  top: 250px;
+  right: 0;
 }
 
 .red-all-2>.three {
@@ -560,7 +566,7 @@ body .schedule .content .group .timeCalendar .time li {
   transition: all 0.2s;
 }
 
-body .schedule .content .group .timeCalendar .time li p:first-child {
+ .schedule .content .group .timeCalendar .time li p:first-child {
   color: black;
   font: bold 30px 'Roboto', sans-serif;
   position: absolute;
@@ -591,9 +597,13 @@ body .schedule .content .group .timeCalendar .time li p:last-child {
   left: 95px;
 }
 
-#etra_time {
+body .schedule .content .group .timeCalendar .time li .etra_time {
   left: 35px;
 }
+
+/* #etra_time {
+  left: 35px;
+} */
 
 body .schedule .content .group .timeCalendar .calendar {
   width: 38%;
@@ -705,7 +715,7 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div {
   padding: 4px 0 6px 0;
 }
 
-body .schedule .content .group .timeCalendar .dates .number-calendar div a {
+ .schedule .content .group .timeCalendar .dates .number-calendar div a {
   color: white;
   font-size: 17px;
   font-family: 'robotolight', sans-serif;
@@ -713,10 +723,9 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div a {
   position: relative;
 }
 
-#day-of-week {
+.schedule .content .group .timeCalendar .dates .number-calendar .day-of-week {
   color: white;
   font: bold 17px 'Roboto', sans-serif;
-  margin: 0px 12px;
 }
 
 .red-all-4 {
@@ -747,6 +756,8 @@ body .schedule .content .group .timeCalendar .dates .number-calendar div a {
   background-color: #ce0e0b;
   display: inline-block;
   width: 100%;
+  position: absolute;
+  top: -150px;
   height: 150px;
   transform: skewY(7.6deg);
 }
@@ -1051,21 +1062,21 @@ body .write-us .red-bg .send {
 body .write-us .red-bg .send .name {
   border: 0;
   padding: 7px 9px;
-  width: 255px;
-  margin-right: 26px;
+  width: 238px;
+  margin-right: 24px;
 }
 
 body .write-us .red-bg .send .email {
   border: 0;
-  width: 255px;
+  width: 238px;
   padding: 7px 9px;
 }
 
 textarea {
   border: 0;
-  width: 100%;
+  width: 522px;
   margin: 16px 0 15px 0;
-  height: 74px;
+  height: 58px;
   padding: 7px 9px;
   resize: none;
 }
